@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001c7b;
+    color: #fff;
+}
+
+.navbar-left a,
+.navbar-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+.navbar-left a {
+    color: green;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.navbar-left a span {
+    color: red;
+}
+
+
+.navbar-right .search {
+    font-size: 1.5rem;
+    margin-right: 7rem;
+}
+
+.navbar-right button {
+    font-size: 2rem;
+    padding: 6px 28px;
+    margin: 0.4rem;
+}
+
+.navbar-right .male {
+    background-color: #92d050;
+}
+
+.navbar-right .female {
+    background-color: #ff0000;
+    color: white;
+}
